@@ -93,7 +93,7 @@ export default function StartupLanding() {
     {/* Product 4 */}
     <div className="border border-[#E5E7EB] rounded-xl p-6 bg-[#333]">
       <div className="bg-[#444] h-40 rounded-lg mb-4 flex items-center justify-center">
-        <img className="h-40 rounded-lg" src="/images/jeep-boots.jpg"></img>
+        <img className="h-40 rounded-lg" src="/images/Jeep-boots.jpg"></img>
       </div>
       <h4 className="font-semibold mb-2">Jeep boots</h4>
       <p className="text-sm mb-4">Jeep boots for men.</p>
@@ -113,7 +113,7 @@ export default function StartupLanding() {
     {/* Product 6 */}
     <div className="border border-[#E5E7EB] rounded-xl p-6 bg-[#333]">
       <div className="bg-[#444] h-40 rounded-lg mb-4 flex items-center justify-center">
-        <img className="h-40 rounded-lg" src="/images/Skinny_slim_fit_jeans.jpg"></img>
+        <img className="h-40 rounded-lg" src="/images/skinny_slim_fit_jeans.jpg"></img>
       </div>
       <h4 className="font-semibold mb-2">Skinny Jeans</h4>
       <p className="text-sm mb-4">Skinny slim fit jeans.</p>

@@ -11,19 +11,7 @@ export default function Portfolio() {
     {/* Dark overlay */}
     <div className="fixed inset-0 bg-black/40 -z-10" />
     
-    {/*navigation bar*/}
-    <nav className="mx-auto mt-6 max-w-6xl px-6 py-4 rounded-2xl
-        bg-white/10 backdrop-blur-xl border border-white/20 shadow-lg
-        flex justify-between">
-      <h1 className="text-4xl font-semibold mb-10">Portfolio</h1>
 
-     <div className="space-x-6 text-gray-300">
-          <a href="/">Home</a>
-          <a href="/Service">Services</a>
-          <a href="/Portfolio">Portfolio</a>
-          <a href="/Contact">Contact</a>
-        </div>
-      </nav>
 
       <div className="px-16 py-10 grid md:grid-cols-3 gap-8">
 

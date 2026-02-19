@@ -34,20 +34,7 @@ export default function Contact() {
     <div className="fixed inset-0 bg-black/40 -z-10" />
 
 
-    {/* Navigation bar*/}
-    <nav className="mx-auto mt-6 max-w-6xl px-6 py-4 rounded-2xl
-        bg-white/10 backdrop-blur-xl border border-white/20 shadow-lg
-        flex justify-between">
-      <h1 className="text-4xl font-semibold mb-10">Contact</h1>
-
-        <div className="space-x-6 text-gray-300">
-          <a href="/">Home</a>
-          <a href="/Service">Services</a>
-          <a href="/Portfolio">Portfolio</a>
-          <a href="/Contact">Contact</a>
-        </div>
-      </nav>
-
+    
       <form onSubmit={handleSubmit} className="max-w-xl space-y-4 px-20 py-10">
         <input
           className="w-full p-3 rounded-xl bg-white/10 backdrop-blur-xl border border-white/20 shadow-lg"
@@ -68,7 +55,7 @@ export default function Contact() {
         <textarea
           className="w-full p-3 rounded-xl bg-white/10 backdrop-blur-xl border border-white/20 shadow-lg"
           rows="5"
-          placeholder="Tell us about your project"
+          placeholder="Contact us and let's start your project"
            onChange={(e) =>
           setFormData({ ...formData, message: e.target.value })
 }
